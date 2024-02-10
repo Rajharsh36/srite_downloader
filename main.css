@@ -1,0 +1,106 @@
+html,body{
+    background:gray;
+    height: 100%;
+}
+#menu{
+    width: max-content;
+    border: 2px solid black;
+    margin: auto;
+    top: 30px;
+    position: sticky;
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 2px black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#title{
+    display: block;
+    width: 120px;
+    border: 1px solid black;
+    margin: auto;
+    margin-bottom: 3px;
+    top: 10px;
+    position: sticky;
+    border-radius: 4px;
+    box-shadow: 5px 5px 2px black;
+}
+
+.menu{
+    text-decoration: none;
+    border: 1px solid black;
+    margin-right: 4px;
+    margin-left: 9px;
+    border-radius: 5px;
+    color: black;
+    padding-left: 4px;
+    padding-right: 4px;
+    box-shadow: 4px 4px 3px black;
+}
+
+
+#theme
+{
+    background-color: gray;
+    border-color: gray;
+}
+
+.a_tag_content{
+    text-decoration: none;
+    color: black;
+    
+    
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    padding-bottom: 10px;
+}
+._img{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    
+    box-shadow: 4px 5px black ;
+}
+.show_bt
+{
+    display: block;
+    box-shadow: 4px 8px black;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.hidden
+{
+    display: inline-block;
+    width: 100%;
+}
+
+#about_box
+{
+    
+    text-align: center;
+    padding-top: 50px;
+    width: 35%;
+    height: 35%;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    box-shadow: 4px 10px black;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+
+}
+#logo
+{
+    width: 50px;
+    height: 50px;
+    
+}

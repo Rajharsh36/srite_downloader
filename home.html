@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="cloud-computing.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srite Downloader</title>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    
+
+</head>
+<body>
+<div>
+ <button onclick="theme_func()" id="theme">
+ 
+ <img src="cloud-computing.png" alt="can't load img" id="logo" ></div>
+</button>
+    <button  onclick="hide_or_show('menu'),hide('search_parent')" id="title" ><strong>Srite Downloader</strong></button>
+    
+   
+ <div id="menu" style="display: none;"><a href="home.html" class="menu">home</a>
+<a href="about.html" class="menu">about</a>
+</div>
+<button onclick="show('directlink')" class="show_bt">Direct Link</button>
+<div id="directlink" class="hidden">
+    <div><strong>These direct download link are for windows 64bit !</strong></div>
+    <div><strong>In the bottom you can download software according to your choice by visiting the site.</strong></div>
+<button onclick="show('antivirus')" id="antivirus_bt" class="show_bt">Antivirus</button>
+    <div id="antivirus" class="hidden">
+        <a href="https://www.avg.com/en-in/download-thank-you.php?product=FREEGSR" id="avg"  class="a_tag_content"><img src="logo//avg.jpeg" alt="can't load img" class="_img">AVG</a>
+        
+        <a href="https://www.avira.com/en/start-download/product/2262/-I12e2mvtstLKUkGnG-U3eKJ0uoWK80lDYJBWASCZ-5OJnuRA8EDlsTmv6r0JPI4cnPeuAPg0SxNe9EQJf7aoy0" id="avira" class="a_tag_content"><img src="logo//avira.png" alt="can't load img" class="_img">Avira</a>
+        
+        <a href="https://www.avast.com/en-in/download-thank-you.php?product=FAV-PPC&locale=en-in&direct=1" id="avast" class="a_tag_content"><img src="logo//avast.png" alt="can't load img" class="_img">Avast</a>
+        
+        <a href="https://download.mcafee.com/molbin/iss-loc/directmtponeclicktrial/1.0/1316/1.0.100.1/mcafee_trial_setup_433.0207.3919_key.exe" id="mcafee" class="a_tag_content"><img src="logo//mcafee.jpeg" alt="can't load img" class="_img">McAfee</a>
+        <a href="https://buy-static.norton.com/norton/ps/bb/inhard/360/in_en_nort_NAV-1D-3D-5D.html?om_sem_cid=hho_sem_sy:~en-in_nor_n36_sch_brn_exc_nfr_adw_nad_low~c_kw0000001523&gad_source=1&gclid=CjwKCAiA2pyuBhBKEiwApLaIO4yUwOvDTuT7jmP6m09elXpfg_5vHDM4ylY2AZrdA6LtB-wzH62dbhoCGYIQAvD_BwE&gclsrc=aw.ds" class="a_tag_content"><img src="logo//norton.png" alt="can't load img" class="_img">Norton</a>
+        <a href="https://download.pandasecurity.com/thankyou/index.php?productID=FREEAV&interstitial=0" class="a_tag_content"><img src="logo//panda.jpeg" alt="can't load img" class="_img">Panda</a>
+        <a href="https://download.totalav.com/" class="a_tag_content"><img src="logo//totalav.jpeg" alt="can't load img" class="_img">Total AV</a>
+        <a href="https://downloads.surfshark.com/windows/latest/SurfsharkSetup.exe" class="a_tag_content"><img src="logo//surfshark.png" alt="can't load img" class="_img">SurfShark</a>
+    </div>
+
+    <button onclick="show('browsers')" class="show_bt">Browsers</button>
+    <div id="browsers" class="hidden">
+       
+        <a href="https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=en-US&_gl=1*1nmwr9x*_ga*MzA2Njc5ODkuMTcwNzU1MTE0MA..*_ga_MQ7767QQQW*MTcwNzU1MTEzOS4xLjEuMTcwNzU1MTE1MC4wLjAuMA.." class="a_tag_content"><img src="logo/firefox.jpeg" alt="can't load img" class="_img">FireFox</a>
+        <a href="https://go.microsoft.com/fwlink/?linkid=2109047&Channel=Stable&language=en&brand=M100" class="a_tag_content"><img src="logo/edge.jpeg" alt="can't load img" class="_img">Edge</a>
+        <a href="https://www.opera.com/computer/thanks?ni=stable&os=windows&utm_campaign=%2307+-+IN+-+Search+-+EN+-+Branded+-+2017&utm_content=40191622276" class="a_tag_content"><img src="logo/opera.jpeg" alt="can't load img" class="_img">Opera</a>
+        <a href="https://www.torproject.org/dist/torbrowser/13.0.9/tor-browser-windows-x86_64-portable-13.0.9.exe" class="a_tag_content"><img src="logo/tor.jpeg" alt="can't load img" class="_img">Tor</a>
+    </div>
+
+    <button class="show_bt" onclick="show('programing')">programing</button>
+    <div id="programing" class="hidden">
+
+        <a href="https://www.python.org/ftp/python/3.12.2/python-3.12.2-amd64.exe" class="a_tag_content"><img src="logo/python.jpeg" alt="can't load img" class="_img">python-3</a>
+        <a href="https://nodejs.org/dist/v20.11.0/node-v20.11.0-x64.msi" class="a_tag_content"><img src="logo/node.png" alt="can't load img" class="_img">node.js</a>
+        <a href="https://sourceforge.net/projects/mingw/files/latest/download" class="a_tag_content"><img src="logo/mingw.jpeg" alt="can't load img" class="_img">MINGW</a>
+        <a href="https://javadl.oracle.com/webapps/download/AutoDL?BundleId=249553_4d245f941845490c91360409ecffb3b4" class="a_tag_content"><img src="logo/java.png" alt="can't load img" class="_img">Java</a>
+        <a href="https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.2.3-1/rubyinstaller-devkit-3.2.3-1-x64.exe" class="a_tag_content"><img src="logo/ruby.png" alt="can't load img" class="_img">Ruby</a>
+        <a href="https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user" class="a_tag_content"><img src="logo/vscode.jpeg" alt="can't load img" class="_img">VS Code</a>
+        <a href="https://central.github.com/deployments/desktop/desktop/latest/win32" class="a_tag_content"><img src="logo/github.jpeg" alt="can't load img" class="_img">github</a>
+    </div>
+    <button class="show_bt" onclick="show('virtualmachine')">Virtual machine</button>
+    <div id="virtualmachine" class="hidden">
+        <a href="https://download.virtualbox.org/virtualbox/7.0.14/VirtualBox-7.0.14-161095-Win.exe" class="a_tag_content"><img src="logo/vbox.jpeg" alt="can't load img" class="_img">Virtual Box</a>
+
+
+    </div>
+    <button class="show_bt" onclick="show('isofiles')">iso files</button>
+    <div class="hidden" id="isofiles">
+        <p>image files of some famous os to run on virtual machines</p>
+        <a href="https://cdimage.kali.org/kali-2023.4/kali-linux-2023.4-installer-amd64.iso" class="a_tag_content"><img src="logo/kaliiso.jpeg" alt="can't load img" class="_img">kali linux</a>
+        <a href="https://ubuntu.com/download/desktop/thank-you?version=22.04.3&architecture=amd64" class="a_tag_content"><img src="logo/ubuntu.png" alt="can't load img" class="_img">Ubuntu</a>
+        <a href="https://sourceforge.net/projects/bodhilinux/files/7.0.0/bodhi-7.0.0-64.iso/download" class="a_tag_content"><img src="logo/bodhi.jpeg" alt="can't load img" class="_img">Bodhi linux</a>
+        <a href="https://mirrors.cicku.me/linuxmint/iso/stable/21.3/linuxmint-21.3-cinnamon-64bit.iso" class="a_tag_content"><img src="logo/linuxmint.png" alt="can't load img" class="_img">Linux Mint</a>
+
+    </div>
+    <button class="show_bt" onclick="show('socilamedia')">social media</button>
+    <div class="hidden" id="socilamedia">
+        <a href="https://get.microsoft.com/installer/download/9NKSQGP7F2NH?ocid=sideload_experiment_test" class="a_tag_content"><img src="logo/whatsapp.jpeg" alt="can't load img" class="_img">whatsapp</a>
+        
+    </div>
+    <button class="show_bt" onclick="show('other')">other</button>
+    <div id="other" class="hidden">
+        <a href="https://mirror.kku.ac.th/videolan/vlc/3.0.20/win32/vlc-3.0.20-win32.exe" class="a_tag_content"><img src="logo/vlcmedia.jpeg" alt="can't load img" class="_img">Vlc media</a>
+        <a href="https://creativecloud.adobe.com/apps/download/photoshop#" class="a_tag_content"><img src="logo/photoshop.png" alt="can't load img" class="_img">Photo Shop</a>
+    </div>
+ </div>   
+
+<!-- links to visit sites -->
+
+<div style="width: 100%;height: 0px;border: 1px solid black;margin-top: 5px;"></div>
+ <button  onclick="show('visitsite')" class="show_bt">Visit Site</button>
+ <div><strong>here you can visit the site and download according to your choice!</strong></div>
+ <div class="hidden" id="visitsite">
+    <button onclick="show('antivirus')" id="antivirus_bt" class="show_bt">Antivirus</button>
+    <div id="antivirus" class="hidden">
+        <a href="https://www.avg.com/en-in/ppc/protection-offer-comparison-04?ppc_code=012&ppc=a&gad_source=1&gclid=CjwKCAiA2pyuBhBKEiwApLaIOyt23014cPlaLNjkZL-CFf3ytNDor7njcLKNmmzimE3KreNFQAzqTRoCcZAQAvD_BwE&gclsrc=aw.ds#pc" id="avg"  class="a_tag_content"><img src="logo/avg.jpeg" alt="can't load img" class="_img">AVG</a>
+        
+        <a href="https://www.avira.com/en/free-antivirus-windows" id="avira" class="a_tag_content"><img src="logo/avira.png" alt="can't load img" class="_img">Avira</a>
+        
+        <a href="https://www.avast.com/en-in/lp-ppc-free-av-brand?ppc_code=012&ppc=a&om_sem_cid=hho_sem_sy:~en-in_ava_sch_brn_exc_adw_dtp~&gad_source=1&gclid=CjwKCAiA2pyuBhBKEiwApLaIO4PEIB3KRHMoYFVvSsNdAJH_lMmZ5NHOscSjxdl0fghVrtkjbKA5tRoCuRQQAvD_BwE&gclsrc=aw.ds#pc" id="avast" class="a_tag_content"><img src="logo/avast.png" alt="can't load img" class="_img">Avast</a>
+        
+        <a href="https://www.mcafee.com/consumer/en-in/landing-page/direct/sem/search-campaign.html?csrc=google&csrcl2=text-ad&cctype=search&ccstype=&ccoe=direct&ccoel2=sem&pkg_id=521&affid=1485&utm_source=google&utm_medium=paidsearch&utm_campaign=%5BEN-IN%5D%5BSearch%5D%5BBrand%5D+McAfee+%5BExact%5D&utm_content=%5Bbrand%5D%5Bexact%5D+mcafee&utm_term=mcafee&gad_source=1&gclid=CjwKCAiA2pyuBhBKEiwApLaIO_4xI8ktux5vh2JReILjQjqle7RQyM5TQ4PRgh4i_orSSgYiknaf4hoCsPoQAvD_BwE&gclsrc=aw.ds" id="mcafee" class="a_tag_content"><img src="logo/mcafee.jpeg" alt="can't load img" class="_img">McAfee</a>
+        <a href="https://buy-static.norton.com/norton/ps/bb/inhard/360/in_en_nort_NAV-1D-3D-5D.html?om_sem_cid=hho_sem_sy:~en-in_nor_n36_sch_brn_exc_nfr_adw_nad_low~c_kw0000001523&gad_source=1&gclid=CjwKCAiA2pyuBhBKEiwApLaIO85JOt8eLdrSMPiRTiJs2qrCvL-BvTrUDYYkMUNRrj0BYhKdMvjdghoCMsoQAvD_BwE&gclsrc=aw.ds" class="a_tag_content"><img src="logo/norton.png" alt="can't load img" class="_img">Norton</a>
+        <a href="https://www.pandasecurity.com/security-promotion/?reg=IN&lang=en&track=99838&campaign=dome2305&recommended=PDCS&option=yearly&coupon=35OFFMULTIP&gad_source=1&gclid=CjwKCAiA2pyuBhBKEiwApLaIOyDwt9y20quiMAq_jnL52mlAThfb1loFjACygta202JcCerUzC1VxhoCKbAQAvD_BwE" class="a_tag_content"><img src="logo/panda.jpeg" alt="can't load img" class="_img">Panda</a>
+        <a href="https://secure.totalav.com/" class="a_tag_content"><img src="logo/totalav.jpeg" alt="can't load img" class="_img">Total AV</a>
+        <a href="https://surfshark.com/deal/brand?gad_source=1&gclid=CjwKCAiA2pyuBhBKEiwApLaIO80vbDI6ji8wRyK9IB2mKJrmOwfayO6hmtijLm2x7BkDC4A22eYfXRoCaIgQAvD_BwE" class="a_tag_content"><img src="logo/surfshark.png" alt="can't load img" class="_img">SurfShark</a>
+    </div>
+
+    <button onclick="show('browsers')" class="show_bt">Browsers</button>
+    <div id="browsers" class="hidden">
+        <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiNtba8_qCEAxW7PoMDHXFjD_sYABABGgJzZg&ase=2&gclid=CjwKCAiA2pyuBhBKEiwApLaIOwqTkEmnunzRu04GX4fj2BhDyCjXI8lSaMAMnYA4NgfZSPOtT_wmcxoChVkQAvD_BwE&ohost=www.google.com&cid=CAESVuD2eFku4puJEFQdDowST4GVNc7TgkPWaq8fC62S4IT_jNmZmSTQBsi5_lCDt96RpKHl6XoUh1o-hXkuQeTm3S7iTZ44OxQ63eGpcZgkVyA0zIP5KYcc&sig=AOD64_1TQ42saH2MQva49vFmKdlRNhz0Gg&q&nis=4&adurl&ved=2ahUKEwium7G8_qCEAxV3bWwGHcqDAvcQ0Qx6BAgQEAE" class="a_tag_content"><img src="logo/chrome.jpeg" alt="can't load img" class="_img">Chrome</a>
+        <a href="https://www.mozilla.org/en-US/firefox/new/" class="a_tag_content"><img src="logo/firefox.jpeg" alt="can't load img" class="_img">FireFox</a>
+        <a href="https://www.microsoft.com/en-us/edge/?form=MA13FJ" class="a_tag_content"><img src="logo/edge.jpeg" alt="can't load img" class="_img">Edge</a>
+        <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwisl9D1_qCEAxWfzjwCHX5uDNsYABAAGgJzZg&ase=2&gclid=CjwKCAiA2pyuBhBKEiwApLaIO0ZGYZ-FnRH6TTWIjmtxu5_nsq-qLjeofsqaeBWySxszahFC_q05ShoC1oEQAvD_BwE&ohost=www.google.com&cid=CAESVuD2P3R3p5zDlfwl8P_VQUXP2lvFawnecfqSHvREc8kPCs9z7M1JLLLjTPVdpEOk8uXR62WwODdafSahnLA4jKbHFZrqwyha4xEx_cbhuPqhACekR5rq&sig=AOD64_1j5vYS6rPycPwN0u2szX_AJtluoA&q&nis=4&adurl&ved=2ahUKEwjy4cj1_qCEAxXTTGwGHT3vBeoQ0Qx6BAgFEAE" class="a_tag_content"><img src="logo/opera.jpeg" alt="can't load img" class="_img">Opera</a>
+        
+        <a href="https://www.torproject.org/" class="a_tag_content"><img src="logo/tor.jpeg" alt="can't load img" class="_img">Tor</a>
+    </div>
+
+    <button class="show_bt" onclick="show('programing')">programing</button>
+    <div id="programing" class="hidden">
+
+        <a href="https://www.python.org/" class="a_tag_content"><img src="logo/python.jpeg" alt="can't load img" class="_img">python-3</a>
+        <a href="https://nodejs.org/en" class="a_tag_content"><img src="logo/node.png" alt="can't load img" class="_img">node.js</a>
+        <a href="https://sourceforge.net/projects/mingw/" class="a_tag_content"><img src="logo/mingw.jpeg" alt="can't load img" class="_img">MINGW</a>
+        <a href="https://www.java.com/" class="a_tag_content"><img src="logo/java.png" alt="can't load img" class="_img">Java</a>
+        <a href="https://www.ruby-lang.org/en/" class="a_tag_content"><img src="logo/ruby.png" alt="can't load img" class="_img">Ruby</a>
+        <a href="https://code.visualstudio.com/" class="a_tag_content"><img src="logo/vscode.jpeg" alt="can't load img" class="_img">VS Code</a>
+        <a href="https://github.com/" class="a_tag_content"><img src="logo/github.jpeg" alt="can't load img" class="_img">github</a>
+    </div>
+    <button class="show_bt" onclick="show('virtualmachine')">Virtual machine</button>
+    <div id="virtualmachine" class="hidden">
+        <a href="https://www.virtualbox.org/" class="a_tag_content"><img src="logo/vbox.jpeg" alt="can't load img" class="_img">Virtual Box</a>
+        <a href="https://www.vmware.com/in.html" class="a_tag_content"><img src="logo/vmware.png" alt="can't load img" class="_img">Vm Ware</a>
+
+
+    </div>
+    <button class="show_bt" onclick="show('isofiles')">iso files</button>
+    <div class="hidden" id="isofiles">
+        <p>image files of some famous os to run on virtual machines</p>
+        <a href="https://www.kali.org/" class="a_tag_content"><img src="logo/kaliiso.jpeg" alt="can't load img" class="_img">kali linux</a>
+        <a href="https://ubuntu.com/" class="a_tag_content"><img src="logo/ubuntu.png" alt="can't load img" class="_img">Ubuntu</a>
+        <a href="https://www.bodhilinux.com/" class="a_tag_content"><img src="logo/bodhi.jpeg" alt="can't load img" class="_img">Bodhi linux</a>
+        <a href="https://linuxmint.com/" class="a_tag_content"><img src="logo/linuxmint.png" alt="can't load img" class="_img">Linux Mint</a>
+        <a href="https://www.parrotsec.org/" class="a_tag_content"><img src="logo/parrot.jpeg" alt="can't load img" class="_img">paroot linux</a>
+
+    </div>
+    <button class="show_bt" onclick="show('socilamedia')">social media</button>
+    <div class="hidden" id="socilamedia">
+        <a href="https://www.whatsapp.com/" class="a_tag_content"><img src="logo/whatsapp.jpeg" alt="can't load img" class="_img">whatsapp</a>
+        
+    </div>
+    <button class="show_bt" onclick="show('other')">other</button>
+    <div id="other" class="hidden">
+        <a href="https://www.videolan.org/vlc/download-windows.html" class="a_tag_content"><img src="logo/vlcmedia.jpeg" alt="can't load img" class="_img">Vlc media</a>
+        <a href="https://www.adobe.com/in/products/photoshop.html" class="a_tag_content"><img src="logo/photoshop.png" alt="can't load img" class="_img">Photo Shop</a>
+    </div>
+ </div>
+<script src="main.js"></script>
+</body>
+</html>
