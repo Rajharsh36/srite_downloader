@@ -31,8 +31,8 @@ const theme_func=()=>{
 
         
     }
-    else if(theme=='default'){
-        console.log("sun")
+    else if(theme=="default")
+    {
         
         let body_ele=document.body
         let html_ele=document.documentElement
@@ -42,8 +42,7 @@ const theme_func=()=>{
         ele.style.background='gray'
         ele.style.borderColor="gray"
         theme='dark'
-        
-       
+
     }
     else{
         console.log("sun")
