@@ -1,5 +1,5 @@
 html,body{
-    background:gray;
+    background:rgb(201, 138, 245)
     height: 100%;
 }
 #menu{
@@ -43,8 +43,8 @@ html,body{
 
 #theme
 {
-    background-color: gray;
-    border-color: gray;
+    background-color:rgb(201, 138, 245);
+    border-color:rgb(201, 138, 245);
 }
 
 .a_tag_content{
@@ -88,14 +88,17 @@ html,body{
     
     text-align: center;
     padding-top: 50px;
-    width: 35%;
-    height: 35%;
+    padding-left: 10px;
+    padding-right: 10px;
     background-color: antiquewhite;
     border: 2px solid black;
     box-shadow: 4px 10px black;
     display: block;
     margin: auto;
     border-radius: 10px;
+    margin-left:100px;
+    margin-right: 100px;
+    padding-bottom: 80px;
 
 }
 #logo
@@ -103,4 +106,18 @@ html,body{
     width: 50px;
     height: 50px;
     
+}
+#deco_img1
+{
+    width: auto;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: block;
+    margin:auto;
+    border-radius: 10px;
+    box-shadow: 5px 10px black;
+    
+   
+
 }
