@@ -45,6 +45,7 @@ html,body{
 {
     background-color:rgb(201, 138, 245);
     border-color:rgb(201, 138, 245);
+    outline: none;
 }
 
 .a_tag_content{
@@ -73,7 +74,7 @@ html,body{
     display: block;
     box-shadow: 4px 8px black;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 10px;
     border-radius: 5px;
 }
@@ -107,6 +108,17 @@ html,body{
     height: 50px;
     
 }
+#deco_img
+{
+    width: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: block;
+    margin:auto;
+    border-radius: 10px;
+    box-shadow: 5px 10px black;
+
+}
 #deco_img1
 {
     width: auto;
@@ -120,4 +132,12 @@ html,body{
     
    
 
+}
+#parent
+{
+
+    display: block;
+    margin: auto;
+    margin-bottom: 100px;
+    
 }
